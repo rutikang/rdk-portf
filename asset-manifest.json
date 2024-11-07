@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "/rutikang/rdk-portf.git/static/js/main.1023a809.js",
+    "main.js": "/rutikang/rdk-portf.git/static/js/main.f7293ad3.js",
     "static/media/friendly.png": "/rutikang/rdk-portf.git/static/media/friendly.d99e6f0a00bfd8014a50.png",
     "static/media/schoolsys.png": "/rutikang/rdk-portf.git/static/media/schoolsys.250c3534d1f43bf169c9.png",
     "static/media/postman.png": "/rutikang/rdk-portf.git/static/media/postman.b1b51fdf4d95d2a1e4e9.png",
@@ -18,9 +18,9 @@
     "index.html": "/rutikang/rdk-portf.git/index.html",
     "static/media/file-type-html.svg": "/rutikang/rdk-portf.git/static/media/file-type-html.51305ec564cee03372ec0fdaaa77854d.svg",
     "static/media/mui.svg": "/rutikang/rdk-portf.git/static/media/mui.b45776fb29e80a04fe8a1f4e944e7ae8.svg",
-    "main.1023a809.js.map": "/rutikang/rdk-portf.git/static/js/main.1023a809.js.map"
+    "main.f7293ad3.js.map": "/rutikang/rdk-portf.git/static/js/main.f7293ad3.js.map"
   },
   "entrypoints": [
-    "static/js/main.1023a809.js"
+    "static/js/main.f7293ad3.js"
   ]
 }
