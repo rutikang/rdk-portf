@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.js": "/rutikang/rdk-portf.git/static/js/main.f7293ad3.js",
-    "static/media/friendly.png": "/rutikang/rdk-portf.git/static/media/friendly.d99e6f0a00bfd8014a50.png",
-    "static/media/schoolsys.png": "/rutikang/rdk-portf.git/static/media/schoolsys.250c3534d1f43bf169c9.png",
-    "static/media/postman.png": "/rutikang/rdk-portf.git/static/media/postman.b1b51fdf4d95d2a1e4e9.png",
-    "static/media/bootstrap.png": "/rutikang/rdk-portf.git/static/media/bootstrap.268c4375260420e8d982.png",
-    "static/media/js.png": "/rutikang/rdk-portf.git/static/media/js.3dfb665e058d08c99f28.png",
-    "static/media/kubernetes.svg": "/rutikang/rdk-portf.git/static/media/kubernetes.69f6c4411fc98e5e50dafe77f8ea8ea1.svg",
-    "static/media/grafana.svg": "/rutikang/rdk-portf.git/static/media/grafana.7fe57917a5ca71db2fc1f8a4df4dfa16.svg",
-    "static/media/react.svg": "/rutikang/rdk-portf.git/static/media/react.0cc978f43ea437de003e85712225e83b.svg",
-    "static/media/sql-database-generic.svg": "/rutikang/rdk-portf.git/static/media/sql-database-generic.c8e44c297d9d4f450f38df95e651aedd.svg",
-    "static/media/node-js.svg": "/rutikang/rdk-portf.git/static/media/node-js.a7647021075b20ebcf315dd54793112d.svg",
-    "static/media/prometheus.svg": "/rutikang/rdk-portf.git/static/media/prometheus.3934cfbc3603f5af5f0ebc4cc76b585d.svg",
-    "static/media/docker.svg": "/rutikang/rdk-portf.git/static/media/docker.526bf95bd6ea74953f99ef403f30cbfd.svg",
-    "static/media/django.svg": "/rutikang/rdk-portf.git/static/media/django.6ce5529c9ef01d428230ef2b3eb4e6fe.svg",
-    "static/media/file-type-css.svg": "/rutikang/rdk-portf.git/static/media/file-type-css.d775a84d2e94cdab548cdffe1aa9ff83.svg",
-    "index.html": "/rutikang/rdk-portf.git/index.html",
-    "static/media/file-type-html.svg": "/rutikang/rdk-portf.git/static/media/file-type-html.51305ec564cee03372ec0fdaaa77854d.svg",
-    "static/media/mui.svg": "/rutikang/rdk-portf.git/static/media/mui.b45776fb29e80a04fe8a1f4e944e7ae8.svg",
-    "main.f7293ad3.js.map": "/rutikang/rdk-portf.git/static/js/main.f7293ad3.js.map"
+    "main.js": "/rdk-portf/static/js/main.2bad6c9b.js",
+    "static/media/friendly.png": "/rdk-portf/static/media/friendly.d99e6f0a00bfd8014a50.png",
+    "static/media/schoolsys.png": "/rdk-portf/static/media/schoolsys.250c3534d1f43bf169c9.png",
+    "static/media/postman.png": "/rdk-portf/static/media/postman.b1b51fdf4d95d2a1e4e9.png",
+    "static/media/bootstrap.png": "/rdk-portf/static/media/bootstrap.268c4375260420e8d982.png",
+    "static/media/js.png": "/rdk-portf/static/media/js.3dfb665e058d08c99f28.png",
+    "static/media/kubernetes.svg": "/rdk-portf/static/media/kubernetes.69f6c4411fc98e5e50dafe77f8ea8ea1.svg",
+    "static/media/grafana.svg": "/rdk-portf/static/media/grafana.7fe57917a5ca71db2fc1f8a4df4dfa16.svg",
+    "static/media/react.svg": "/rdk-portf/static/media/react.0cc978f43ea437de003e85712225e83b.svg",
+    "static/media/sql-database-generic.svg": "/rdk-portf/static/media/sql-database-generic.c8e44c297d9d4f450f38df95e651aedd.svg",
+    "static/media/node-js.svg": "/rdk-portf/static/media/node-js.a7647021075b20ebcf315dd54793112d.svg",
+    "static/media/prometheus.svg": "/rdk-portf/static/media/prometheus.3934cfbc3603f5af5f0ebc4cc76b585d.svg",
+    "static/media/docker.svg": "/rdk-portf/static/media/docker.526bf95bd6ea74953f99ef403f30cbfd.svg",
+    "static/media/django.svg": "/rdk-portf/static/media/django.6ce5529c9ef01d428230ef2b3eb4e6fe.svg",
+    "static/media/file-type-css.svg": "/rdk-portf/static/media/file-type-css.d775a84d2e94cdab548cdffe1aa9ff83.svg",
+    "index.html": "/rdk-portf/index.html",
+    "static/media/file-type-html.svg": "/rdk-portf/static/media/file-type-html.51305ec564cee03372ec0fdaaa77854d.svg",
+    "static/media/mui.svg": "/rdk-portf/static/media/mui.b45776fb29e80a04fe8a1f4e944e7ae8.svg",
+    "main.2bad6c9b.js.map": "/rdk-portf/static/js/main.2bad6c9b.js.map"
   },
   "entrypoints": [
-    "static/js/main.f7293ad3.js"
+    "static/js/main.2bad6c9b.js"
   ]
 }
