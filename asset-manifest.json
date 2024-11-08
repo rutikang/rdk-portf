@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.js": "/rdk-portf/static/js/main.d9ac4733.js",
-    "static/media/friendly.png": "/rdk-portf/static/media/friendly.d99e6f0a00bfd8014a50.png",
-    "static/media/schoolsys.png": "/rdk-portf/static/media/schoolsys.250c3534d1f43bf169c9.png",
+    "main.js": "/rdk-portf/static/js/main.5fefbb51.js",
+    "static/media/friendly.png": "/rdk-portf/static/media/friendly.574e57face632b29d81a.png",
+    "static/media/schoolsys.png": "/rdk-portf/static/media/schoolsys.88827e0a27ae8d317ddc.png",
     "static/media/postman.png": "/rdk-portf/static/media/postman.b1b51fdf4d95d2a1e4e9.png",
     "static/media/bootstrap.png": "/rdk-portf/static/media/bootstrap.268c4375260420e8d982.png",
     "static/media/js.png": "/rdk-portf/static/media/js.3dfb665e058d08c99f28.png",
@@ -18,9 +18,9 @@
     "index.html": "/rdk-portf/index.html",
     "static/media/file-type-html.svg": "/rdk-portf/static/media/file-type-html.51305ec564cee03372ec0fdaaa77854d.svg",
     "static/media/mui.svg": "/rdk-portf/static/media/mui.b45776fb29e80a04fe8a1f4e944e7ae8.svg",
-    "main.d9ac4733.js.map": "/rdk-portf/static/js/main.d9ac4733.js.map"
+    "main.5fefbb51.js.map": "/rdk-portf/static/js/main.5fefbb51.js.map"
   },
   "entrypoints": [
-    "static/js/main.d9ac4733.js"
+    "static/js/main.5fefbb51.js"
   ]
 }
