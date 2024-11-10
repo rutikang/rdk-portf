@@ -131,7 +131,7 @@ export const Projects = () => {
                 height:'300px',
                 borderRadius:5,
                 boxShadow: ishovered === item.img ? "0px 4px 15px rgba(25, 255, 250, 1)" : "none", // Box shadow around the image
-                filter: ishovered === item.img ? 'grayscale(0%)' : 'grayscale(80%)',
+                filter: ishovered === item.img ? 'grayscale(0%)' : 'grayscale(60%)',
                 transform: ishovered === item.img ? "scale(1.1)" : "scale(1)", // Zoom effect on hover
                 transition: "transform 0.3s ease, height 0.3s ease, box-shadow 0.3s ease", // Smooth transition
                 // zindex: ishovered === item.img ? 10:0,
@@ -202,7 +202,7 @@ export const Projects = () => {
                 borderRadius:5,
                 boxShadow:5,
                 boxShadow: ishovered === item.img ? "0px 4px 15px rgba(2, 255, 250, 1)" : "none", // Box shadow around the image
-                filter: ishovered === item.img ? 'grayscale(0%)' : 'grayscale(80%)',
+                filter: ishovered === item.img ? 'grayscale(0%)' : 'grayscale(50%)',
                 transform: ishovered === item.img ? "scale(1.1)" : "scale(1)", // Zoom effect on hover
                 transition: "transform 0.3s ease, height 0.3s ease, box-shadow 0.3s ease", // Smooth transition
 
