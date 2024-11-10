@@ -37,7 +37,7 @@ export const Contact = () => {
     >
       <a href="https://github.com/rutikang" target="_blank" rel="noopener noreferrer">
 
-        <img src={github} style={{ width: '80px', height: '80px' }} />
+        <img src={github} style={{ width: '50px', height: '50px' }} />
         </a>
       <Divider orientation="vertical" variant="middle" flexItem  sx={{bgcolor:'gra', ml:5,mr:2}}/>
       <Typography sx={{color:'white'}}>Github</Typography>
@@ -45,7 +45,7 @@ export const Contact = () => {
 
       <a href="https://www.linkedin.com/in/daniel-rutikanga-kasigazi-02a2aa173/" target="_blank" rel="noopener noreferrer">
 
-      <img src={gmail} style={{ width: '80px', height: '80px' }}/>
+      <img src={gmail} style={{ width: '50px', height: '50px' }}/>
       </a>
 
       <Divider orientation="vertical" variant="middle" flexItem  sx={{bgcolor:'gra', ml:5,mr:2}}/>
@@ -53,7 +53,7 @@ export const Contact = () => {
       <Divider orientation="vertical" variant="middle" flexItem  sx={{bgcolor:'gray', ml:5,mr:5}}/>
       <a href="mailto:danielrutikanga31@gmail.com" target="_blank" rel="noopener noreferrer">
 
-      <img src={linkn} style={{ width: '80px', height: '80px' }}/>
+      <img src={linkn} style={{ width: '50px', height: '50px' }}/>
       </a>
 
       <Divider orientation="vertical" variant="middle" flexItem  sx={{bgcolor:'gra', ml:5,mr:2}}/>

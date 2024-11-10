@@ -5,7 +5,9 @@ import React from 'react'
 import friendly from '../images/friendly.png'
 import school from '../images/schoolsys.png'
 
-
+import goal from '../images/goalApp.png'
+import feedback from '../images/feddback.png'
+import calc from '../images/calc.png'
 export const Projects = () => {
 
     const itemData = [
@@ -20,6 +22,7 @@ export const Projects = () => {
           img: school,
           title: 'School Management System',
           author: 'React, Nodejs+Express, MySQL',
+          link: 'https://rutikang.github.io/School-system/#/'
 
         },
         {
@@ -61,6 +64,29 @@ export const Projects = () => {
         
     ];
 
+    const SimpleData = [
+      {
+        img: goal,
+        title: 'Goals App',
+        author: 'Simple goal planner',
+         link: 'https://rutikang.github.io/Simple-projects/'
+     
+      },
+      {
+        img: feedback,
+        title: 'Fedbaack form',
+        author: 'Basic feedback form',
+        // link: 'https://rutikang.github.io/School-system/#/'
+
+      },
+       {
+          img: calc,
+          title: 'Simple Calculatorr',
+          author: 'Basic Calculator',
+        },
+      
+  ];
+
 
   return (
     <Box sx={{
@@ -89,7 +115,7 @@ export const Projects = () => {
 {/* ------------------------------------------------------------------- */}
         
     <ImageList sx={{ width:"100%", height:'auto', gap:1}}>
-      <ImageListItem key="Subheader" cols={3} sx={{mt:5}} >
+      <ImageListItem key="Subheader" cols={3} sx={{mt:3}} >
         
       </ImageListItem>
       {itemData.map((item, k) => (
@@ -128,7 +154,7 @@ export const Projects = () => {
       ))}
     </ImageList>
 
-    <Alert variant="outlined" severity="info" sx={{mt:5, color:'#58a0e8'}}>
+    <Alert variant="outlined" severity="info" sx={{mt:3,mb:3, color:'#58a0e8'}}>
         For more projects please visit my github repo .  
         <Button  endIcon={<GitHub/>} sx=
         {{variant:'outlined',
@@ -138,6 +164,57 @@ export const Projects = () => {
             target="_blank"
             rel="noopener noreferrer">Github</Button>
       </Alert>
+          {/* ----------------------------------------------- */}
+
+          <Typography>Simple & Basic React applications</Typography>
+        <Divider sx={{bgcolor:'gray'}}/>
+
+       
+
+{/* ------------------------------------------------------------------- */}
+        
+    <ImageList sx={{ width:"100%", height:'auto', gap:1}}>
+      <ImageListItem key="Subheader" cols={3} sx={{mt:2}} >
+        
+      </ImageListItem>
+      {SimpleData.map((item, k) => (
+        <ImageListItem key={item.img}>
+          <img
+            src={`${item.img}` }
+            alt={item.title}
+            loading="lazy"
+            style={{
+                width:"320px",
+                height:"300px",
+                borderRadius:5,
+                boxShadow:5,
+
+            }}
+            
+          />
+                    <ImageListItemBar
+            sx={{bgcolor: 'rgba(8 ,47, 73 ,0.8 )',width:"320px", boxShadow:10 }}
+            title={item.title}
+            subtitle={item.author}
+            actionIcon={
+              <a href={item.link} target="_blank" rel="noopener noreferrer">
+              <IconButton
+                sx={{ color: 'rgba(255, 255, 255, 0.54)' }}
+                aria-label={`info about ${item.title}`}
+              >
+                <Launch />
+              </IconButton>
+              </a>
+              
+            }
+          />
+        
+        </ImageListItem>
+      ))}
+    </ImageList>
+
+
+
         </Box>
     </Box>
   )
