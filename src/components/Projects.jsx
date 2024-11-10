@@ -1,6 +1,6 @@
 import { GitHub, Info, Launch, Send } from '@mui/icons-material';
 import { Alert, Box, Button, Divider, IconButton, ImageList, ImageListItem, ImageListItemBar, Typography } from '@mui/material'
-import React from 'react'
+import React, { useState } from 'react'
 
 import friendly from '../images/friendly.png'
 import school from '../images/schoolsys.png'
@@ -9,6 +9,8 @@ import goal from '../images/goalApp.png'
 import feedback from '../images/feddback.png'
 import calc from '../images/calc.png'
 export const Projects = () => {
+
+  const [ishovered, setIshovered] = useState(null)
 
     const itemData = [
         {
@@ -86,7 +88,7 @@ export const Projects = () => {
         },
       
   ];
-
+// -------------------------------------------------------------------------------------------------------
 
   return (
     <Box sx={{
@@ -126,11 +128,22 @@ export const Projects = () => {
             loading="lazy"
             style={{
                 width:"320px",
-                height:"300px",
+                height:'300px',
                 borderRadius:5,
-                boxShadow:5,
+                boxShadow: ishovered === item.img ? "0px 4px 15px rgba(25, 255, 250, 1)" : "none", // Box shadow around the image
+                filter: ishovered === item.img ? 'grayscale(0%)' : 'grayscale(60%)',
+                transform: ishovered === item.img ? "scale(1.1)" : "scale(1)", // Zoom effect on hover
+                transition: "transform 0.3s ease, height 0.3s ease, box-shadow 0.3s ease", // Smooth transition
+                // zindex: ishovered === item.img ? 10:0,
+                // position: ishovered === item.img ? "absolute" : "relative", // Position image only when hovered
+
+
 
             }}
+
+            onMouseEnter = {()=> setIshovered(item.img)}
+            onMouseLeave={()=> setIshovered(null)}
+
             
           />
                     <ImageListItemBar
@@ -188,8 +201,15 @@ export const Projects = () => {
                 height:"300px",
                 borderRadius:5,
                 boxShadow:5,
+                boxShadow: ishovered === item.img ? "0px 4px 15px rgba(2, 255, 250, 1)" : "none", // Box shadow around the image
+                filter: ishovered === item.img ? 'grayscale(0%)' : 'grayscale(50%)',
+                transform: ishovered === item.img ? "scale(1.1)" : "scale(1)", // Zoom effect on hover
+                transition: "transform 0.3s ease, height 0.3s ease, box-shadow 0.3s ease", // Smooth transition
 
             }}
+
+            onMouseEnter = {()=> setIshovered(item.img)}
+            onMouseLeave={()=> setIshovered(null)}
             
           />
                     <ImageListItemBar
