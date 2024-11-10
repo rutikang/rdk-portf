@@ -7,6 +7,9 @@ import react from '../images/react.svg'
 import mui from '../images/mui.svg'
 import html from '../images/file-type-css.svg'
 import css from '../images/file-type-html.svg'
+import git from '../images/git.svg'
+
+import github from '../images/github.png'
 
 
 import node from '../images/node-js.svg'
@@ -64,7 +67,7 @@ export const Home = () => {
       border:'1px solid #4c5052',
       width:'90%',
       ml:2,
-      height:370,
+      height:400,
       p:2,
       color:'gray',
       overflow:'auto'
@@ -198,7 +201,42 @@ export const Home = () => {
       <img src={prom} style={{ width: '40px', height: '40px' }}/>
       <Divider orientation="vertical" variant="middle" flexItem  sx={{bgcolor:'white', ml:1, mr:1}}/>
       <Typography sx={{color:'white'}}>Prometheus</Typography>
+      {/* <Divider orientation="vertical" variant="middle" flexItem  sx={{bgcolor:'white', ml:1,mr:1}}/> */}
+
+   
+
+
+
+    
+    </Box>
+
+    {/* -------------------------------------- */}
+
+    <Typography sx={{mb:3, mt:3}}>Version Control</Typography>
+      <Box
+      sx={{
+        display: 'inline-flex',
+        alignItems: 'center',
+        border: '1px solid',
+        borderColor: 'divider',
+        borderRadius: 2,
+        bgcolor: 'background',
+        color: 'text.secondary',
+        '& svg': {
+          m: 1,
+        },
+      }}
+    >
+      
+      <img src={git} style={{ width: '40px', height: '40px' }}/>
+      <Divider orientation="vertical" variant="middle" flexItem  sx={{bgcolor:'white', ml:1, mr:1}}/>
+      <Typography sx={{color:'white'}}>Git</Typography>
       <Divider orientation="vertical" variant="middle" flexItem  sx={{bgcolor:'white', ml:1,mr:1}}/>
+
+      <img src={github} style={{ width: '40px', height: '40px' }}/>
+      <Divider orientation="vertical" variant="middle" flexItem  sx={{bgcolor:'white', ml:1, mr:1}}/>
+      <Typography sx={{color:'white'}}>Github</Typography>
+      {/* <Divider orientation="vertical" variant="middle" flexItem  sx={{bgcolor:'white', ml:1,mr:1}}/> */}
 
    
 

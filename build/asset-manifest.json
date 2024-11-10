@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "/rdk-portf/static/js/main.9e0901b5.js",
+    "main.js": "/rdk-portf/static/js/main.d074dfbf.js",
     "static/media/friendly.png": "/rdk-portf/static/media/friendly.574e57face632b29d81a.png",
     "static/media/schoolsys.png": "/rdk-portf/static/media/schoolsys.88827e0a27ae8d317ddc.png",
     "static/media/postman.png": "/rdk-portf/static/media/postman.b1b51fdf4d95d2a1e4e9.png",
@@ -9,6 +9,7 @@
     "static/media/kubernetes.svg": "/rdk-portf/static/media/kubernetes.69f6c4411fc98e5e50dafe77f8ea8ea1.svg",
     "static/media/grafana.svg": "/rdk-portf/static/media/grafana.7fe57917a5ca71db2fc1f8a4df4dfa16.svg",
     "static/media/react.svg": "/rdk-portf/static/media/react.0cc978f43ea437de003e85712225e83b.svg",
+    "static/media/git.svg": "/rdk-portf/static/media/git.2231ab474a49d68c30848552a22213bc.svg",
     "static/media/sql-database-generic.svg": "/rdk-portf/static/media/sql-database-generic.c8e44c297d9d4f450f38df95e651aedd.svg",
     "static/media/node-js.svg": "/rdk-portf/static/media/node-js.a7647021075b20ebcf315dd54793112d.svg",
     "static/media/prometheus.svg": "/rdk-portf/static/media/prometheus.3934cfbc3603f5af5f0ebc4cc76b585d.svg",
@@ -18,9 +19,9 @@
     "index.html": "/rdk-portf/index.html",
     "static/media/file-type-html.svg": "/rdk-portf/static/media/file-type-html.51305ec564cee03372ec0fdaaa77854d.svg",
     "static/media/mui.svg": "/rdk-portf/static/media/mui.b45776fb29e80a04fe8a1f4e944e7ae8.svg",
-    "main.9e0901b5.js.map": "/rdk-portf/static/js/main.9e0901b5.js.map"
+    "main.d074dfbf.js.map": "/rdk-portf/static/js/main.d074dfbf.js.map"
   },
   "entrypoints": [
-    "static/js/main.9e0901b5.js"
+    "static/js/main.d074dfbf.js"
   ]
 }
