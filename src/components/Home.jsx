@@ -8,6 +8,8 @@ import mui from '../images/mui.svg'
 import html from '../images/file-type-css.svg'
 import css from '../images/file-type-html.svg'
 import git from '../images/git.svg'
+import typescript from '../images/typescript.svg'
+
 
 import github from '../images/github.png'
 
@@ -105,16 +107,22 @@ export const Home = () => {
       <Typography sx={{color:'white'}}>JavaScript</Typography>
       <Divider orientation="vertical" variant="middle" flexItem  sx={{bgcolor:'white', ml:1, mr:1}}/>
 
-      <img src={boot} style={{ width: '40px', height: '40px' }}/>
-      <Divider orientation="vertical" variant="middle" flexItem  sx={{bgcolor:'white', ml:1, mr:1}}/>
-      <Typography sx={{color:'white'}}>Bootstrap</Typography>
-      <Divider orientation="vertical" variant="middle" flexItem  sx={{bgcolor:'white', ml:1, mr:1}}/>
 
       <img src={react} style={{ width: '40px', height: '40px' }}/>
       <Divider orientation="vertical" variant="middle" flexItem  sx={{bgcolor:'white',ml:1, mr:1}}/>
       <Typography sx={{color:'white'}}>React</Typography>
       <Divider orientation="vertical" variant="middle" flexItem  sx={{bgcolor:'white', ml:1, mr:1}}/>
 
+      <img src={typescript} style={{ width: '40px', height: '40px' }}/>
+      <Divider orientation="vertical" variant="middle" flexItem  sx={{bgcolor:'white', ml:1, mr:1}}/>
+      <Typography sx={{color:'white'}}>TypeScript</Typography>
+      <Divider orientation="vertical" variant="middle" flexItem  sx={{bgcolor:'white', ml:1, mr:1}}/>
+
+      <img src={boot} style={{ width: '40px', height: '40px' }}/>
+      <Divider orientation="vertical" variant="middle" flexItem  sx={{bgcolor:'white', ml:1, mr:1}}/>
+      <Typography sx={{color:'white'}}>Bootstrap</Typography>
+      <Divider orientation="vertical" variant="middle" flexItem  sx={{bgcolor:'white', ml:1, mr:1}}/>
+      
       <img src={mui} style={{ width: '40px', height: '40px' }}/>
       <Divider orientation="vertical" variant="middle" flexItem  sx={{bgcolor:'white', ml:1, mr:1}}/>
       <Typography sx={{color:'white'}}>MUI</Typography>
