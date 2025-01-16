@@ -7,7 +7,14 @@ import school from '../images/schoolsys.png'
 
 import goal from '../images/goalApp.png'
 import feedback from '../images/feddback.png'
+import business from '../images/business.png'
+
 import calc from '../images/calc.png'
+
+import ehr from '../images/ehr.png'
+import { Link } from 'react-router-dom';
+
+
 export const Projects = () => {
 
   const [ishovered, setIshovered] = useState(null)
@@ -109,14 +116,15 @@ export const Projects = () => {
             overflowX:'hidden'
             
         }}>
-        <Typography>Projects</Typography>
-        <Divider sx={{bgcolor:'gray'}}/>
+        <Typography>Sample Personal Projects</Typography>
+        <Divider sx={{bgcolor:'gray', mb:5}}/>
+        <Typography> These projects showcase my design skills and creativity, reflecting my personal approach to problem-solving and innovation.</Typography>
 
        
 
 {/* ------------------------------------------------------------------- */}
         
-    <ImageList sx={{ width:"100%", height:'auto', gap:1}}>
+    {/* <ImageList sx={{ width:"100%", height:'auto', gap:1}}>
       <ImageListItem key="Subheader" cols={3} sx={{mt:3}} >
         
       </ImageListItem>
@@ -165,9 +173,94 @@ export const Projects = () => {
         
         </ImageListItem>
       ))}
-    </ImageList>
+    </ImageList> */}
 
-    <Alert variant="outlined" severity="info" sx={{mt:3,mb:3, color:'#58a0e8'}}>
+    
+
+       
+
+<Box sx={{width:'100%', mt:5, display:'flex', flexWrap:'wrap', gap:3}}>
+
+<a href='https://ehr-hazel.vercel.app/login'>
+<Box sx={{width:'300px', height:'300px', border:'5px solid ', borderRadius:5, boxShadow:20,overflow:'hidden', position:'relative'}}>
+  <img src={ehr}
+          style={{
+            // width: '100%', // Ensures the image scales to the width of the Box
+            height: '100%', // Ensures the image scales to the height of the Box
+            objectFit: 'contain', // Makes the image fit within the Box without cropping
+          }}
+          />
+           <Box sx={{bgcolor:'rgba(61, 69, 134, 0.8)', width:'100%', height:'60px', position:'absolute', bottom:0, p:2}}>
+              <Typography sx={{color:'#fcfcf0'}}> Personal Health Records Project</Typography>
+              <Divider/>
+              <Typography sx={{color:'#fcfcf0'}}  style={{fontSize:12}}>React, Node, MySQL</Typography>
+              <Typography sx={{color:'#fcfcf0'}} style={{fontSize:12}}>Render, AWS, vercel</Typography>
+
+           </Box>
+  </Box>
+  </a>
+  <a href='https://school-system-jdxsf58u0-daniels-projects-ee8cea4f.vercel.app/#/'>
+  <Box sx={{width:'300px', height:'300px', border:'5px solid ', borderRadius:5, boxShadow:20, overflow:'hidden', position:'relative'}}>
+          <img src={school}
+          style={{
+            // width: '100%', // Ensures the image scales to the width of the Box
+            height: '100%', // Ensures the image scales to the height of the Box
+            objectFit: 'contain', // Makes the image fit within the Box without cropping
+          }}
+          />
+
+<Box sx={{bgcolor:'rgba(61, 69, 134, 0.8)', width:'100%', height:'60px', position:'absolute', bottom:0, p:2}}>
+              <Typography sx={{color:'#fcfcf0'}}> School Management System</Typography>
+              <Divider/>
+              {/* <Typography sx={{color:'#fcfcf0'}}  style={{fontSize:12}}>React, Node, MySQL</Typography>
+              <Typography sx={{color:'#fcfcf0'}} style={{fontSize:12}}>Render, AWS, vercel</Typography> */}
+
+           </Box>  </Box>
+           </a>
+ 
+ <a href='https://business-hub-v1-git-main-daniels-projects-ee8cea4f.vercel.app/'>
+  <Box sx={{width:'300px', height:'300px', border:'5px solid ', borderRadius:5, boxShadow:20,overflow:'hidden', position:'relative'}}>
+  <img src={business}
+          style={{
+            // width: '100%', // Ensures the image scales to the width of the Box
+            height: '100%', // Ensures the image scales to the height of the Box
+            objectFit: 'contain', // Makes the image fit within the Box without cropping
+          }}
+          />
+<Box sx={{bgcolor:'rgba(61, 69, 134, 0.8)', width:'100%', height:'60px', position:'absolute', bottom:0, p:2}}>
+              <Typography sx={{color:'#fcfcf0'}}> Business Repo Project</Typography>
+              <Divider/>
+              <Typography sx={{color:'#fcfcf0'}}  style={{fontSize:12}}>Maps integration</Typography>
+              {/* <Typography sx={{color:'#fcfcf0'}} style={{fontSize:12}}>Render, AWS, vercel</Typography> */}
+
+           </Box>
+  </Box>
+  </a>
+
+
+  <a href='https://rutikang.github.io/react-trial/'>
+  <Box sx={{width:'300px', height:'300px', border:'5px solid ', borderRadius:5, boxShadow:20,overflow:'hidden', position:'relative'}}>
+  <img src={friendly}
+          style={{
+            // width: '100%', // Ensures the image scales to the width of the Box
+            height: '100%', // Ensures the image scales to the height of the Box
+            objectFit: 'contain', // Makes the image fit within the Box without cropping
+          }}
+          />
+
+<Box sx={{bgcolor:'rgba(61, 69, 134, 0.8)', width:'100%', height:'60px', position:'absolute', bottom:0, p:2}}>
+              <Typography sx={{color:'#fcfcf0'}}>Friendly (social media) Project</Typography>
+              <Divider/>
+              {/* <Typography sx={{color:'#fcfcf0'}}  style={{fontSize:12}}>React, Node, MySQL</Typography> */}
+              {/* <Typography sx={{color:'#fcfcf0'}} style={{fontSize:12}}>Render, AWS, vercel</Typography> */}
+
+           </Box>  </Box>
+           </a>
+
+</Box>
+
+
+<Alert variant="outlined" severity="info" sx={{mt:5,mb:3, color:'#58a0e8'}}>
         For more projects please visit my github repo .  
         <Button  endIcon={<GitHub/>} sx=
         {{variant:'outlined',
@@ -179,14 +272,36 @@ export const Projects = () => {
       </Alert>
           {/* ----------------------------------------------- */}
 
-          <Typography>Simple & Basic React applications</Typography>
+          <Typography>Simple & Basic applications</Typography>
         <Divider sx={{bgcolor:'gray'}}/>
 
-       
+
+
+
+<Box sx={{mt:5}}>
+
+        <Box sx={{width:'300px', height:'300px', border:'5px solid ', borderRadius:5, boxShadow:20,overflow:'hidden'}}>
+        <a href='https://rutikang.github.io/Simple-projects/'>
+  <img src={goal}
+          style={{
+            // width: '100%', // Ensures the image scales to the width of the Box
+            height: '100%', // Ensures the image scales to the height of the Box
+            objectFit: 'contain', // Makes the image fit within the Box without cropping
+          }}
+          />
+            </a>
+
+  </Box>
+
+  </Box>
+
+
+
+
 
 {/* ------------------------------------------------------------------- */}
         
-    <ImageList sx={{ width:"100%", height:'auto', gap:1}}>
+    {/* <ImageList sx={{ width:"100%", height:'auto', gap:1}}>
       <ImageListItem key="Subheader" cols={3} sx={{mt:2}} >
         
       </ImageListItem>
@@ -231,7 +346,7 @@ export const Projects = () => {
         
         </ImageListItem>
       ))}
-    </ImageList>
+    </ImageList> */}
 
 
 
