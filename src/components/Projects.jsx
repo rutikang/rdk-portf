@@ -207,7 +207,7 @@ export const Projects = () => {
            </Box>
   </Box>
   </a>
-  <a href='https://school-system-jdxsf58u0-daniels-projects-ee8cea4f.vercel.app/#/'>
+  <a href='https://school-system-sooty.vercel.app/'>
   <Box sx={{width:'300px', height:'300px', border:'5px solid ', borderRadius:5, boxShadow:20, overflow:'hidden', position:'relative'}}>
           <img src={school}
           style={{
