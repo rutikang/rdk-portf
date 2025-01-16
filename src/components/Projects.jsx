@@ -197,6 +197,14 @@ export const Projects = () => {
               <Typography sx={{color:'#fcfcf0'}} style={{fontSize:12}}>Render, AWS, vercel</Typography>
 
            </Box>
+           <Box sx={{bgcolor:'rgb(138, 135, 4)', width:'100px', height:'70px', position:'absolute', top:0, right:0, p:1}}>
+           <Typography sx={{color:'#fcfcf0'}} style={{fontSize:12}}>Test logins :</Typography>
+           <Typography sx={{color:'#fcfcf0'}} style={{fontSize:12}}>email: dan@gmail.com</Typography>
+           <Typography sx={{color:'#fcfcf0'}} style={{fontSize:12}}>password:dan</Typography>
+
+
+
+           </Box>
   </Box>
   </a>
   <a href='https://school-system-jdxsf58u0-daniels-projects-ee8cea4f.vercel.app/#/'>
@@ -215,7 +223,12 @@ export const Projects = () => {
               {/* <Typography sx={{color:'#fcfcf0'}}  style={{fontSize:12}}>React, Node, MySQL</Typography>
               <Typography sx={{color:'#fcfcf0'}} style={{fontSize:12}}>Render, AWS, vercel</Typography> */}
 
-           </Box>  </Box>
+           </Box>  
+           
+          
+           
+           
+           </Box>
            </a>
  
  <a href='https://business-hub-v1-git-main-daniels-projects-ee8cea4f.vercel.app/'>

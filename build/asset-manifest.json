@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "/rdk-portf/static/js/main.6610125c.js",
+    "main.js": "/rdk-portf/static/js/main.92072055.js",
     "static/media/business.png": "/rdk-portf/static/media/business.13a296f4833293fb17f5.png",
     "static/media/friendly.png": "/rdk-portf/static/media/friendly.574e57face632b29d81a.png",
     "static/media/ehr.png": "/rdk-portf/static/media/ehr.cc32e9d0bf29fb781e12.png",
@@ -22,9 +22,9 @@
     "index.html": "/rdk-portf/index.html",
     "static/media/file-type-html.svg": "/rdk-portf/static/media/file-type-html.51305ec564cee03372ec0fdaaa77854d.svg",
     "static/media/mui.svg": "/rdk-portf/static/media/mui.b45776fb29e80a04fe8a1f4e944e7ae8.svg",
-    "main.6610125c.js.map": "/rdk-portf/static/js/main.6610125c.js.map"
+    "main.92072055.js.map": "/rdk-portf/static/js/main.92072055.js.map"
   },
   "entrypoints": [
-    "static/js/main.6610125c.js"
+    "static/js/main.92072055.js"
   ]
 }
