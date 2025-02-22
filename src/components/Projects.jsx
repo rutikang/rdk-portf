@@ -231,7 +231,7 @@ export const Projects = () => {
            </Box>
            </a>
  
- <a href='https://business-hub-v1-git-main-daniels-projects-ee8cea4f.vercel.app/'>
+ {/* <a href='https://business-hub-v1-git-main-daniels-projects-ee8cea4f.vercel.app/'>
   <Box sx={{width:'300px', height:'300px', border:'5px solid ', borderRadius:5, boxShadow:20,overflow:'hidden', position:'relative'}}>
   <img src={business}
           style={{
@@ -244,11 +244,10 @@ export const Projects = () => {
               <Typography sx={{color:'#fcfcf0'}}> Business Repo Project</Typography>
               <Divider/>
               <Typography sx={{color:'#fcfcf0'}}  style={{fontSize:12}}>Maps integration</Typography>
-              {/* <Typography sx={{color:'#fcfcf0'}} style={{fontSize:12}}>Render, AWS, vercel</Typography> */}
 
            </Box>
   </Box>
-  </a>
+  </a> */}
 
 
   <a href='https://rutikang.github.io/react-trial/'>
